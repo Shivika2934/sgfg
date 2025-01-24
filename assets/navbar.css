@@ -1,0 +1,83 @@
+.navbar .dropdown-menu {
+    background-color: white !important;
+    /* Light mode background color */
+    border: 1px solid #ccc !important;
+    /* Border for the dropdown */
+}
+
+/* Dark mode styles for dropdown menu */
+
+
+/* Light mode (default) button styles */
+#theme-toggle {
+    background-color: transparent !important;
+    color: black !important;
+    border: 1px solid black !important;
+}
+
+/* Hover state in light mode */
+#theme-toggle:hover {
+    background-color: black !important;
+    color: white !important;
+}
+
+.navbar-logo {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+/* Default Light Mode */
+.navbar {
+    background-color: #f8f9fa !important;
+    /* Light background */
+    color: black !important;
+    /* Light text */
+}
+
+.navbar a.nav-link {
+    color: black !important;
+    /* Light mode link color */
+}
+
+/* Dark mode styles for navbar background */
+/* Dark mode styles for the entire navbar */
+body.dark-mode .navbar {
+    background-color: #333 !important;
+    border-bottom: 1px solid #444 !important;
+}
+
+/* Dark mode link colors */
+body.dark-mode .navbar a.nav-link {
+    color: white !important;
+}
+
+body.dark-mode .navbar a.nav-link:hover {
+    color: #ccc !important;
+}
+
+/* Dark mode dropdown menu */
+body.dark-mode .navbar .dropdown-menu {
+    background-color: black !important;
+    border: 1px solid #444 !important;
+}
+
+body.dark-mode .navbar .dropdown-menu .dropdown-item {
+    color: white !important;
+}
+
+body.dark-mode .navbar .dropdown-menu .dropdown-item:hover {
+    background-color: #444 !important;
+    color: white !important;
+}
+
+/* Dark mode toggle button */
+body.dark-mode #theme-toggle {
+    background-color: black !important;
+    color: white !important;
+    border: 1px solid white !important;
+}
+
+body.dark-mode #theme-toggle:hover {
+    background-color: white !important;
+    color: black !important;
+}
